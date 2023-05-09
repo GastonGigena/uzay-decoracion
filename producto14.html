@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uzay deco</title>
+    <link rel="stylesheet" href="styles/productos.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <hr>
+            <ul>
+
+                <li><a href=index.html>Volver al Inicio</a></li>
+                <li><a href=index.html#cuadros>Volver a cuadros</a></li>
+
+            </ul>
+            <hr>
+            <br><br>
+        </nav>
+
+    </header>
+    <main>
+        <div class="producto">
+            <img src="images/cuadrosabstractos.jpg" alt="Producto 14">
+            <h3>CUADRO</h3>
+            <p>cuadro Abstracto</p>
+            <p>30cm x 40cm</p>
+            <br>
+            <p class="precio">Precio: $3000</p>
+            <br><br>
+            <form action="carrito.php" method="POST">
+                <label for="cantidad">seleccionar la cantidad:</label>
+                <input type="number" id="cantidad" name="cantidad" value="1" min="1" max="10">
+                <br>
+                <button type="submit">Agregar al carrito</button>
+            </form>
+        </div>
+    </main>
+
+</body>
+
+</html>
