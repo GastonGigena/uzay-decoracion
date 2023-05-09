@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+nav ul li {
+    list-style: none;
+    background-color: rgb(145, 20, 20);
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+
+    align-items: center;
+
+}
+
+nav ul li a{
+  
+  color: aliceblue;
+  text-decoration: none;
+  
+ 
+  
+  
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+    font-size: 20px;
+    
+}
+h3{
+  color: brown;
+  font-weight: bold;
+}
+
+.precio{
+  color: brown;
+  font-weight: bold;
+}
+.producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(196, 12, 12, 0.2);
+    border-radius: 10px;
+    
+}
+
+.producto img {
+  width: 300px; /* establece el ancho de la imagen a 300 píxeles */
+  height: auto; /* ajusta automáticamente la altura proporcionalmente al ancho */
+}
+
+
+
+  button {
+    background-color: rgb(145, 20, 20);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+
+
+
+  
